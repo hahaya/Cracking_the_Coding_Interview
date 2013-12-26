@@ -1,4 +1,3 @@
-#include <QtCore/QCoreApplication>
 #include <iostream>
 #include <string>
 
@@ -8,8 +7,6 @@ bool isUniqueChar3(const std::string &str);
 
 int main(int argc, char *argv[])
 {
-    QCoreApplication a(argc, argv);
-
     std::string str1 = "just one.";
     if ( isUniqueChar1(str1) )
     {
@@ -40,7 +37,7 @@ int main(int argc, char *argv[])
         std::cout << str3 << " hasn't all unique characters." << std::endl;
     }
 
-    return a.exec();
+    return 0;
 }
 
 //当string中的所有字符全为ASCII时(解法一)
