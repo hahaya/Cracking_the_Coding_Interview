@@ -43,17 +43,17 @@ int main(int argc, char *argv[])
 //当string中的所有字符全为ASCII时(解法一)
 bool isUniqueChar1(const std::string &str)
 {
-    bool char_set[256];
-    memset( char_set, 0, sizeof(char_set) ); //必须将所有位设置成false
+    bool checker[256];
+    memset( checker, 0, sizeof(checker) ); //必须将所有位设置成false
 
     for ( unsigned int i = 0; i < str.length(); ++i )
     {
         int value = (int)str.at(i);
-        if ( char_set[value] )
+        if ( checker[value] )
         {
             return false;
         }
-        char_set[value] = true;
+        checker[value] = true;
     }
     return true;
 }
