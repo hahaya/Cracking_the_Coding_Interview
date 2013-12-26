@@ -5,4 +5,7 @@ See the detailed solutions:
 1.1 Implement an algorithm to determine if a string has all unique characters. What if you can not use additional data structures?  
 Solution:  	
 Code:[https://github.com/hahaya/Cracking_the_Coding_Interview/blob/master/code/1.1.cpp](https://github.com/hahaya/Cracking_the_Coding_Interview/blob/master/code/1.1.cpp)  
+1.2 Write code to reverse a C-Style String. (C-String means that “abcd” is represented as five characters, including the null character.)  
+Solution:
+Code:[https://github.com/hahaya/Cracking_the_Coding_Interview/blob/master/code/1.2.cpp](https://github.com/hahaya/Cracking_the_Coding_Interview/blob/master/code/1.2.cpp)
  
